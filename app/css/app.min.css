@@ -168,6 +168,301 @@ template {
 [hidden] {
   display: none
 }
+@media (max-width:650px) {
+  .content-best__container,
+  .content-reviews,
+  .content-slider,
+  .resort-health__wrap,
+  .resort-item__desc,
+  .resort-item__nav,
+  .resort-manager,
+  .resort-map,
+  .resort-menu,
+  .resort-rooms__list {
+    padding: 0 15px
+  }
+  .content-request__input {
+    margin-right: 0;
+    padding-left: 0;
+    text-align: center
+  }
+  .content-request__row,
+  .content-request__title,
+  .content-subscribe__form,
+  .content-subscribe__title {
+    text-align: center
+  }
+  .content-request__title,
+  .content-subscribe__title {
+    margin-bottom: 10px
+  }
+  .content-call__right-list,
+  .content-request__form,
+  .region-list,
+  .resort-filter__item,
+  .resort-item__nav,
+  .resort-manager__wrap,
+  .resort-menu__list {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+  }
+  .content-request__form-left,
+  .content-request__form-right,
+  .content-subscribe__form-left,
+  .content-subscribe__form-right {
+    width: 100%;
+    margin-bottom: 10px
+  }
+  .content-request__container {
+    padding: 30px 25px
+  }
+  .content-request__container:after {
+    bottom: 10px;
+    left: 0;
+    text-align: center
+  }
+  .content-request,
+  .content-slider {
+    margin-bottom: 0
+  }
+  .content-options__title,
+  .region-list__title {
+    line-height: 1.2
+  }
+  .content-about__quote {
+    margin-top: 40px
+  }
+  .content-order__item:nth-child(2),
+  .content-order__item:nth-child(3) {
+    display: none
+  }
+  .content-order__send {
+    text-align: center;
+    margin: 10px 0
+  }
+  .content-order__item {
+    text-align: center
+  }
+  .content-manager__img {
+    margin: 0 auto
+  }
+  .content-manager__card {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center
+  }
+  .content-offers__row {
+    margin: 0
+  }
+  .content-gallery {
+    display: none
+  }
+  .content-info__item {
+    margin-bottom: 15px
+  }
+  .content-call__right-item {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px
+  }
+  .content {
+    padding-bottom: 0
+  }
+  .footer-middle__item,
+  .region-list,
+  .region-list__item,
+  .region-resort,
+  .resort-list__item {
+    margin-bottom: 20px
+  }
+  .resort-list__item-wrap {
+    padding: 0 15px
+  }
+  .resort-list__item-wrap img {
+    width: 100%
+  }
+  .resort-list__desc {
+    border-radius: 0 0 20px 20px
+  }
+  .content-call__right-phone,
+  .content-call__title {
+    text-align: center;
+    font-size: 16px
+  }
+  .select-content__form {
+    padding: 30px 15px
+  }
+  .breadcrumbs,
+  .resort-filter__head,
+  .resort-item__label,
+  .resort-item__option {
+    display: none
+  }
+  .resort-filter__item-title {
+    text-align: center
+  }
+  .resort-filter__select {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+  }
+  .select-content__form-row {
+    min-height: 0
+  }
+  .resort-map__left {
+    margin-bottom: 20px
+  }
+  .resort-item__info {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 10px
+  }
+  .resort-item__desc {
+    margin: 10px 0;
+    text-align: center
+  }
+  .resort-item__nav-item {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 12px
+  }
+  .resort-item__order-link {
+    margin: 0
+  }
+  .resort-desc__subtitle {
+    text-align: center
+  }
+  .resort-desc__wrap {
+    padding-right: 15px
+  }
+  .resort-desc__txt {
+    text-align: center
+  }
+  iframe {
+    height: 250px!important
+  }
+  .resort-health__full {
+    position: relative;
+    text-align: right
+  }
+  .resort-health__bottom {
+    display: none
+  }
+  .content-reviews {
+    margin-top: 0
+  }
+  .resort-reviews__btn {
+    width: 250px
+  }
+  .resort-manager__data {
+    padding-left: 0;
+    background: 0 0;
+    display: block
+  }
+  .resort-manager__app-link {
+    font-size: 16px
+  }
+  .resort-manager__app,
+  .resort-manager__form {
+    width: 100%;
+    padding: 0
+  }
+  .resort-manager__form,
+  .resort-manager__form-row {
+    display: block;
+    margin: 0
+  }
+  .resort-manager__form input,
+  .resort-manager__form-row input {
+    width: 100%;
+    margin-bottom: 10px
+  }
+  .restore-manager__app-list {
+    margin-bottom: 10px
+  }
+  .resort-manager__img {
+    margin: 0 auto
+  }
+  .resort-manager__app,
+  .resort-manager__app-title,
+  .resort-manager__form-title,
+  .restore-manager__app-list {
+    text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+  }
+  .content-subscribe__btn,
+  .content-subscribe__input {
+    margin-right: 0
+  }
+  .resort-menu__item {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 10px
+  }
+  .content-subscribe__input {
+    padding-left: 0;
+    text-align: center
+  }
+  .nowrap .select-content__form-input {
+    width: 30%
+  }
+  .select-content__form {
+    border-radius: 0
+  }
+  .select-sidebar {
+    display: none
+  }
+  .select-list__item-bron,
+  .select-list__item-bron-btn,
+  .select-list__item-bron-price,
+  .select-list__item-desc,
+  .select-list__item-slider {
+    width: 100%
+  }
+  .select-list__item-bron {
+    position: relative;
+    padding-top: 0
+  }
+  .select-list__item-bron-price {
+    margin-right: 0
+  }
+  .app-form {
+    padding: 30px 15px;
+    margin: 0 10px
+  }
+  .app-form__col:nth-child(2),
+  .app-form__col:nth-child(3) {
+    display: none
+  }
+  .health-procedures__col.center,
+  .health-procedures__col.right {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start
+  }
+  .health-procedures__opt {
+    margin: 0
+  }
+  .health-procedures__list {
+    margin-top: 20px
+  }
+  .video-desc__right {
+    padding-left: 0
+  }
+  .video-recom__input {
+    width: 100%
+  }
+  .content-reviews__quote {
+    display: none
+  }
+  .video-desc__subtitle {
+    text-align: center
+  }
+}
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -14240,6 +14535,9 @@ iframe {
   padding: 12px 32px;
   display: none
 }
+.faq-tabs__image {
+  width: 100%
+}
 .video-desc__wrap {
   margin-left: 0
 }
@@ -14821,7 +15119,8 @@ iframe {
   padding: 12px 32px;
   display: none
 }
-.direction-health__title {
+.direction-health__title,
+.health-procedures__title {
   color: #fff;
   font-family: Roboto;
   background: #f8c73f;
@@ -14872,242 +15171,4 @@ iframe {
   border-radius: 50%;
   background: #a2d76c;
   margin-right: 10px
-}
-.content-best__container,
-.content-reviews,
-.content-slider,
-.resort-health__wrap,
-.resort-item__desc,
-.resort-item__nav,
-.resort-manager,
-.resort-map,
-.resort-menu,
-.resort-rooms__list {
-  padding: 0 15px
-}
-.content-request__input {
-  margin-right: 0;
-  padding-left: 0;
-  text-align: center
-}
-.content-request__row,
-.content-request__title,
-.content-subscribe__form,
-.content-subscribe__title {
-  text-align: center
-}
-.content-request__title,
-.content-subscribe__title {
-  margin-bottom: 10px
-}
-.content-call__right-list,
-.content-request__form,
-.region-list,
-.resort-filter__item,
-.resort-item__nav,
-.resort-manager__wrap,
-.resort-menu__list {
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap
-}
-.content-request__form-left,
-.content-request__form-right,
-.content-subscribe__form-left,
-.content-subscribe__form-right {
-  width: 100%;
-  margin-bottom: 10px
-}
-.content-request__container {
-  padding: 30px 25px
-}
-.content-request__container:after {
-  bottom: 10px;
-  left: 0;
-  text-align: center
-}
-.content-request,
-.content-slider {
-  margin-bottom: 0
-}
-.content-options__title,
-.region-list__title {
-  line-height: 1.2
-}
-.content-about__quote {
-  margin-top: 40px
-}
-.content-order__item:nth-child(2),
-.content-order__item:nth-child(3) {
-  display: none
-}
-.content-order__send {
-  text-align: center;
-  margin: 10px 0
-}
-.content-order__item {
-  text-align: center
-}
-.content-manager__img {
-  margin: 0 auto
-}
-.content-manager__card {
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  text-align: center
-}
-.content-offers__row {
-  margin: 0
-}
-.content-gallery {
-  display: none
-}
-.content-info__item {
-  margin-bottom: 15px
-}
-.content-call__right-item {
-  width: 100%;
-  text-align: center;
-  margin-top: 10px
-}
-.content {
-  padding-bottom: 0
-}
-.footer-middle__item,
-.region-list,
-.region-list__item,
-.region-resort,
-.resort-list__item {
-  margin-bottom: 20px
-}
-.resort-list__item-wrap {
-  padding: 0 15px
-}
-.resort-list__item-wrap img {
-  width: 100%
-}
-.resort-list__desc {
-  border-radius: 0 0 20px 20px
-}
-.content-call__right-phone,
-.content-call__title {
-  text-align: center;
-  font-size: 16px
-}
-.select-content__form {
-  padding: 30px 15px
-}
-.breadcrumbs,
-.resort-filter__head,
-.resort-item__label,
-.resort-item__option {
-  display: none
-}
-.resort-filter__item-title {
-  text-align: center
-}
-.resort-filter__select {
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center
-}
-.select-content__form-row {
-  min-height: 0
-}
-.resort-map__left {
-  margin-bottom: 20px
-}
-.resort-item__info {
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  margin-top: 10px
-}
-.resort-item__desc {
-  margin: 10px 0;
-  text-align: center
-}
-.resort-item__nav-item {
-  width: 100%;
-  margin-bottom: 10px;
-  border-radius: 12px
-}
-.resort-item__order-link {
-  margin: 0
-}
-.resort-desc__subtitle {
-  text-align: center
-}
-.resort-desc__wrap {
-  padding-right: 15px
-}
-.resort-desc__txt {
-  text-align: center
-}
-iframe {
-  height: 250px!important
-}
-.resort-health__full {
-  position: relative;
-  text-align: right
-}
-.resort-health__bottom {
-  display: none
-}
-.content-reviews {
-  margin-top: 0
-}
-.resort-reviews__btn {
-  width: 250px
-}
-.resort-manager__data {
-  padding-left: 0;
-  background: 0 0;
-  display: block
-}
-.resort-manager__app-link {
-  font-size: 16px
-}
-.resort-manager__app,
-.resort-manager__form {
-  width: 100%;
-  padding: 0
-}
-.resort-manager__form,
-.resort-manager__form-row {
-  display: block;
-  margin: 0
-}
-.resort-manager__form input,
-.resort-manager__form-row input {
-  width: 100%;
-  margin-bottom: 10px
-}
-.restore-manager__app-list {
-  margin-bottom: 10px
-}
-.resort-manager__img {
-  margin: 0 auto
-}
-.resort-manager__app,
-.resort-manager__app-title,
-.resort-manager__form-title,
-.restore-manager__app-list {
-  text-align: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center
-}
-.content-subscribe__btn,
-.content-subscribe__input {
-  margin-right: 0
-}
-.resort-menu__item {
-  width: 100%;
-  border-radius: 12px;
-  margin-bottom: 10px
-}
-.content-subscribe__input {
-  padding-left: 0;
-  text-align: center
 }

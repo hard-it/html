@@ -210,6 +210,7 @@
 </section>
 <section class="health-procedures">
 	<div class="health-procedures__wrap container">
+		<div class="health-procedures__title">Лечебные процедуры в санаториях</div>
 		<div class="health-procedures__list row">
 			<div class="health-procedures__col col-12 col-sm-6 col-md-3">
 				<ul class="health-procedures__opt">

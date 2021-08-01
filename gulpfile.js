@@ -26,7 +26,7 @@ function styles () {
 		'app/lib/jquery-ui.min.css',
 		'app/lib/owl.carousel.min.css',
 		'app/scss/main.sass',
-		'app/scss/media-mobile.sass'
+		'app/lib/media.css'
 	])
 		.pipe(sass())
 		.pipe(concat('app.min.css'))
