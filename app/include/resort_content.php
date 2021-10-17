@@ -1,16 +1,18 @@
-<div class="breadcrumbs container">
-	<ul class="breadcrumbs-list">
-		<li class="breadcrumbs-list__item">
-			<a href="" class="breadcrumbs-list__link">Главная</a>
-		</li>
-		<li class="breadcrumbs-list__item">></li>
-		<li class="breadcrumbs-list__item">
-			<a href="" class="breadcrumbs-list__link">Кисловодск</a>
-		</li>
-		<li class="breadcrumbs-list__item">></li>
-		<li class="breadcrumbs-list__item">Плаза</li>
-	</ul>
-</div>	
+<section class="breadcrumb">
+	<div class="breadcrumb-container container">
+		<ul class="breadcrumbs-list">
+			<li class="breadcrumbs-list__item">
+				<a href="" class="breadcrumbs-list__link">Главная</a>
+			</li>
+			<li class="breadcrumbs-list__item">></li>
+			<li class="breadcrumbs-list__item">
+				<a href="" class="breadcrumbs-list__link">Кисловодск</a>
+			</li>
+			<li class="breadcrumbs-list__item">></li>
+			<li class="breadcrumbs-list__item">Плаза</li>
+		</ul>
+	</div>
+</section>
 <section class="resort-item container">
     <div class="resort-item__title">Санаторий Плаза Кисловодск</div>
     <div class="resort-item__row row">
