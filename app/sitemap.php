@@ -39,6 +39,9 @@
 			<li class="page-list__item">
 				<a href="special.php">Спецпредложения</a>
 			</li>
+			<li class="page-list__item">
+				<a href="rating.php">Рейтинг</a>
+			</li>
         </ul>
     </div>
 </div>
