@@ -3084,14 +3084,72 @@ iframe
   margin-bottom: 25px
 .collaborate-principles__item
   padding: 8px 80px
-  font-size: 12px
+  font-size: 16px
   font-family: "Roboto"
   color: rgb(80, 80, 80)
   line-height: 1
-&:nth-child(odd)
+  &:nth-child(odd)
     background: #f6f6f6
 .collaborate-principles__item-text
   display: inline-block
+  line-height: 24px
   background: url(../images/dist/collaborate-item/check.svg) no-repeat
   background-size: 24px 24px
   padding-left: 80px
+.collaborate-principle__img
+  text-align: right
+.collaborate-health
+  margin-bottom: 40px
+.direction-collaborate__wrap
+  padding: 0
+.direction-collaborate__title-tab
+  font-size: 14px
+  font-family: "Roboto"
+  color: rgb(81, 81, 81)
+  font-weight: 400
+  padding: 12px 32px
+  cursor: pointer
+  background: url(../images/dist/header/arrow_down.svg) no-repeat right 32px center
+
+  &.active
+    background: url(../images/dist/header/arrow_up.svg) no-repeat right 32px center
+
+  &:hover
+    color: #a2d76c
+
+  &.grey
+    background: url(../images/dist/header/arrow_down.svg) no-repeat right 32px center #f6f6f6
+
+    &.active
+      background: url(../images/dist/header/arrow_up.svg) no-repeat right 32px center #f6f6f6 !important
+
+.direction-collaborate__desc
+  font-size: 14px
+  font-family: "Roboto"
+  color: rgb(81, 81, 81)
+  font-weight: 400
+  padding: 12px 32px
+  display: none
+
+.direction-collaborate__title
+  color: #fff
+  font-family: Roboto
+  background: #f8c73f
+  text-transform: uppercase
+  text-align: center
+  font-size: 25px
+  margin: 20px auto
+  padding: 10px
+.direction-collaborate__files
+  margin: 40px 0
+.direction-collaborate__files-btn
+  text-align: center
+.direction-collaborate__files-btn-link
+  display: inline-block
+  border-radius: 10px
+  background-color: rgb(162, 215, 108)
+  width: 260px
+  line-height: 43px
+  color: #fff
+
+

@@ -89,6 +89,19 @@ $(document).ready(function () {
 		}
 	})
 	
+	/* Collaborate item - табы */
+	$('.direction-collaborate__title-tab').on('click', function(){
+		if($(this).hasClass('active')){
+			$(this).removeClass('active');
+			$(this).parents('.direction-collaborate__item').find('.direction-collaborate__desc').slideUp(300);
+		}else{
+			$('.direction-collaborate__desc').hide();
+			$('.direction-collaborate__title-tab').removeClass('active');
+			$(this).addClass('active');
+			$(this).parents('.direction-collaborate__item').find('.direction-collaborate__desc').slideDown(300);
+		}
+	})
+	
 	$('.header-mobile__btn').on('click', function(){
 		$('.header-mobile__submenu').toggleClass('active');
 	});

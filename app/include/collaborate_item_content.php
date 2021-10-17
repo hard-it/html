@@ -15,6 +15,7 @@
 </section>
 <? include_once __DIR__ . '/blocks/colaborate_seo.php'; ?>
 <? include_once __DIR__ . '/blocks/collaborate_principles.php'; ?>
+<? include_once __DIR__ . '/blocks/collaborate-info.php'; ?>
 <div class="content-manager">
     <div class="content-manager__title">Наши менеджеры вам помогут</div>
     <div class="content-manager__container container">
