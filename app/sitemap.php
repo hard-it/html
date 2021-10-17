@@ -24,6 +24,21 @@
 			<li class="page-list__item">
 				<a href="faq.php">FAQ</a>
 			</li>
+			<li class="page-list__item">
+				<a href="resorts.php">Курорты</a>
+			</li>
+			<li class="page-list__item">
+				<a href="colaborate.php">Сотрудничество</a>
+			</li>
+			<li class="page-list__item">
+				<a href="colaborate_item.php">Сотрудничество турагентам</a>
+			</li>
+			<li class="page-list__item">
+				<a href="thematic_tours.php">Тематические туры</a>
+			</li>
+			<li class="page-list__item">
+				<a href="special.php">Спецпредложения</a>
+			</li>
         </ul>
     </div>
 </div>
